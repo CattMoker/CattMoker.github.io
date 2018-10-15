@@ -1,1 +1,117 @@
-Hello World
+<!--
+<html lang="en">
+  <head>
+
+    <h1>Matthew Coker</h1>
+	<div class = "container">
+		<div class = "col">
+			<h2>Education</h2>
+			<h2>Certifications/Awards</h2>
+			<h2>Skills</h2>
+			<h2>Experience</h2>
+			<h2>Clubs</h2>
+		</div>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class = "col-sm-4" >
+			<h2 data-target="#myCarousel" data-slide-to="0" class="active">Education</h2>
+			<h2 data-target="#myCarousel" data-slide-to="1">Certifications/Awards</h2>
+			<h2 data-target="#myCarousel" data-slide-to="2">Skills</h2>
+			<h2 data-target="#myCarousel" data-slide-to="3">Experience</h2>
+			<h2 data-target="#myCarousel" data-slide-to="4">Clubs</h2>
+		</div>
+		<h2>Carousel Example</h2>  
+		<div id="myCarousel" class="carousel slide col-sm-8" data-ride="carousel">
+			<!-- Indicators -->
+			<!--
+			<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>-->
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<ul>
+						<li>Bachelor of Science in Information Technology: Software Engineering | Fall 2018</li>
+						<li>Georgia Gwinnett College | GPA: 3.83</li>
+					</ul>
+				</div>
+
+				<div class="item">
+					<ul>
+						<li>MTA Networking Fundamentals Certification - 2017</li>
+						<li>GGC Humanitarian Award - 2017</li>
+					</ul>
+				</div>
+
+				<div class="item">
+					<ul>
+						<li>Languages: Python, Java, C#, HTML, CSS, PHP, mySQL, SQL, Javascript</li>
+						<li>Software Engineering: GitHub, Astah, GitBash, Discord, Slack</li>
+						<li>Frameworks: SQLite, Discord, Bootstrap 5, LAMP Stack</li>
+						<li>Tools: Unity 3D Game Engine, mySQL Workbench, Cisco Packet Tracer, Oracle VM VirtualBox, Blender, Processing, XAMPP</li>
+						<li>IDE: Eclipse, IntelliJ, PyCharm, Notepad++</li>
+						<li>OS: Microsoft Windows 10, Windows 2007 Server, Ubuntu, MacOS</li>
+					</ul>
+				</div>
+				
+				<div class="item">
+					<ul>
+						<li>GGC AEC (Academic Enhancement Center) ITEC Tutor | 2017 Fall - 2018 Fall</li>
+							<ul>
+								<li>Creating an agenda with each student, to maintain an effective session.</li>
+								<li>Interacting with many different and varied experiences and skill sets.</li>
+								<li>Quarterly reports show high reviews from student surveys.</li>
+							</ul>
+						<li>GGC TAP (Technology Ambassadors Program) | 2017 Fall
+							<ul>
+								<li>Provide technological support for GGC outreach and increase the number of students in the IT major, geared towards those underrepresented in the field.</li>
+								<li>Presented to multiple audiences of different backgrounds.</li>
+								<li>Raising awareness and understanding of how different concepts in IT really work, as well as programming fundamentals.</li>
+							</ul>
+						<li>GGC community garden Volunteer | 2016-2018 Fall
+							<ul>
+								<li>Guiding and coordinating other volunteers in accomplishing tasks to maintain our produce, ensuring that their work meets GGC’s standards for donations.</li>
+								<li>Maintaining sustainability through tools that leave little to no carbon footprint, cooperating with other local shops on campus to recycle coffee grounds.</li>
+							</ul>
+					</ul>
+				</div>
+				
+				<div class="item">
+					<ul>
+						<li>AITP (Association of IT Professionals)</li>
+						<li>Game Development Club</li>
+						<li>VGGC (Volunteer GGC)</li>
+
+					</ul>
+				</div>
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+</body>
+</html>
